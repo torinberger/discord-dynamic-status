@@ -1,0 +1,23 @@
+{
+  "name": "discord-dynamic-status",
+  "version": "1.0.0",
+  "description": "A dynamic discord status but.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torinberger/discord-dynamic-status.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torinberger/discord-dynamic-status/issues"
+  },
+  "homepage": "https://github.com/torinberger/discord-dynamic-status#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
