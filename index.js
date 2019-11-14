@@ -9,7 +9,7 @@ var i = 1;
 
 client.on('ready', () => {
   setInterval(function () {
-    console.log('set');
+    console.log('Updated stats!');
     i = (i+1) % 6
     line = process.env["LINE"+i]
     client.user.setActivity(line)
